@@ -1,0 +1,27 @@
+Imagine This Code as a Door Lock System
+Think of the code like a door to a secret room. You want to make sure only the right people can get in, right?
+But if the lock is weak, anyone can break in.
+
+Think of It Like This:
+MD5 = Old, easy-to-pick lock
+
+Hardcoded passwords = Leaving your keys under the mat 
+
+No rate limiting = No security guard to stop bad guys 
+
+Debug mode on = Open door with people inside 
+
+No input validation = Letting anyone walk into your house without checking ID 
+
+Secure Version of the Flask Login API
+We'll fix the following:
+
+Use bcrypt for secure password hashing.
+
+Store user data in a database instead of hardcoding.
+
+Add rate limiting to prevent brute-force attacks.
+
+Disable debug mode for security.
+
+Validate inputs to ensure safe data.
